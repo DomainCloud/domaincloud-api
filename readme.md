@@ -26,15 +26,20 @@ This type include several actions, such as:
 |RequestDelete|Domain deletion|
 
 # DNS Function
+This type include several actions, such as:
 
-|Parameter|Description|
+
+|Action|Description|
 |--- |--- |
 |AddRecord|Add DNS Host Record|
 |SaveRecords|Sumbitted changes to DNS Host Records information|
 |DeleteRecord|Delete DNS Host Record|
 
 # DF Function
-|Parameter|Description|
+This type include several actions, such as:
+
+
+|Action|Description|
 |--- |--- |
 |AddRecord|Add DF Record|
 |SaveRecords|Sumbitted changes to DF Records information|
