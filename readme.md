@@ -5,7 +5,7 @@ We divided our function into 3 types:
 2.  DNS Functions
 3.  Domain Forwarding Functions
 
-# Domain Function
+# Domain Functions
 This type include several actions, such as:
 
 |Action|Description|
@@ -25,7 +25,7 @@ This type include several actions, such as:
 |DeleteNameserver|Child nameserver deletion|
 |RequestDelete|Domain deletion|
 
-# DNS Function
+# DNS Functions
 This type include several actions, such as:
 
 
@@ -35,7 +35,7 @@ This type include several actions, such as:
 |SaveRecords|Sumbitted changes to DNS Host Records information|
 |DeleteRecord|Delete DNS Host Record|
 
-# DF Function
+# DF Functions
 This type include several actions, such as:
 
 
