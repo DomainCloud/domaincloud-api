@@ -128,7 +128,6 @@ function _api_process($params, $command) {
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
     curl_setopt($ch, CURLOPT_HEADER, false);
     $output = curl_exec($ch);
-    var_dump($output);
     
     if ($output == false) {
         $res = array("error" => curl_error($ch));

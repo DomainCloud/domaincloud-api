@@ -2,7 +2,6 @@
 include('_apiProcess.php');
 
 $params = array(
-    "domainid" => "",
     "domainname" => "",
     "sld" => "", // eg. yourdomain
     "tld" => "", // eg. .id
