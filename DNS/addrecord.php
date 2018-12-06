@@ -6,16 +6,16 @@ $config = array(
 );
 
 $data = array(
-	"token" => $config["token"],
-	"authemail" => $config["authemail"],
-	"dnsaction" => "deleterecord",
+    "token" => $config["token"],
+    "authemail" => $config["authemail"],
+    "dnsaction" => "deleterecord",
     "domain" => "", // domain name
     "dnsrecid" => "",
-    "dnsrecordhost"	=> "",
-    "dnsrecordtype"	=> "",
+    "dnsrecordhost" => "",
+    "dnsrecordtype" => "",
     "dnsrecordaddress" => "",
     "dnsrecordttl" => "",
-    "dnsrecordpriority"	=> "",
+    "dnsrecordpriority" => "",
 );
 
 $ch = curl_init();
