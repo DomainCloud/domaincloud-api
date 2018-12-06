@@ -1,8 +1,8 @@
 <?php
 $config = array(
-    'authemail' => YOUR_AUTH_EMAIL,
-    'token' => YOUR_TOKEN,
-    'endpoint' => DF_API_ENDPOINT
+	'authemail' => YOUR_AUTH_EMAIL,
+	'token' => YOUR_TOKEN,
+	'endpoint' => DF_API_ENDPOINT
 );
 
 
@@ -10,8 +10,8 @@ $data = [
 	"token" => $config["token"],
 	"authemail" => $config["authemail"],
 	"action" => 'UploadFile',
-	"sld"=> "", // eg. yourdomain
-	"tld"=> "", // eg. .id
+	"sld" => "", // eg. yourdomain
+	"tld" => "", // eg. .id
 	"file" => new \CURLFile(""),
 	"user_action" => "upload_1", // upload_1: Identity Document, upload_2: Legality Document, upload_3: Additional Document
 	"doc_type" => "KTP" // KTP, PASSPORT, SIUP, TDA, AKTA, Surat Kuasa, Lainnya
@@ -30,9 +30,9 @@ curl_setopt($ch, CURLOPT_SAFE_UPLOAD, true);
 
 $output = curl_exec($ch);
 if ($output == false) {
-    $res = array("error"=>curl_error($ch));
+	$res = array("error"=>curl_error($ch));
 } else {
-    $res = json_decode($output, true);
+	$res = json_decode($output, true);
 }
 curl_close($ch);
 

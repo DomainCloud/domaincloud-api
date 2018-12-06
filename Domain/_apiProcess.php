@@ -103,16 +103,16 @@ function requestDelete($params) {
 
 function _api_process($params, $command) {
 	$config = array(
-	    'authemail' => YOUR_AUTH_EMAIL,
-	    'token' => YOUR_TOKEN,
-	    'endpoint' => DF_API_ENDPOINT
+		'authemail' => YOUR_AUTH_EMAIL,
+		'token' => YOUR_TOKEN,
+		'endpoint' => DF_API_ENDPOINT
 	);
 
 	
 	$data = array(
-	    "action"			=> $command,
-	    "token"             => $config["token"],
-	    "authemail"         => $config["authemail"],
+		"action" => $command,
+		"token" => $config["token"],
+		"authemail" => $config["authemail"],
 	);
 	$data = array_merge($data, $params);
 	
@@ -131,7 +131,7 @@ function _api_process($params, $command) {
 	var_dump($output);
 	
 	if ($output == false) {
-		$res = array("error"=>curl_error($ch));
+		$res = array("error" => curl_error($ch));
 	} else {
 		$res = json_decode($output, true);
 	}

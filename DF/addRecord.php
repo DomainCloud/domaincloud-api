@@ -6,15 +6,15 @@ $config = array(
 );
 
 $data = array(
-	"token"             => $config["token"],
-	"authemail"         => $config["authemail"],
-	"action"			=> "addrecord",
-    "domain"            => "", // domain name
-    "recid"				=> "",
-    "origin_domain"		=> "",
-    "destination_domain"=> "",
-    "type"				=> "", //301 or 302
-    "option"			=> "1", // 1: Only redirect with www, 2: Redirect with or without www, 3: Do no redirect www
+	"token" => $config["token"],
+	"authemail" => $config["authemail"],
+	"action" => "addrecord",
+	"domain" => "", // domain name
+	"recid"	=> "",
+	"origin_domain" => "",
+	"destination_domain" => "",
+	"type" => "", //301 or 302
+	"option" => "1", // 1: Only redirect with www, 2: Redirect with or without www, 3: Do no redirect www
 );
 
 $ch = curl_init();

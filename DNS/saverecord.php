@@ -1,21 +1,21 @@
 <?php
 $config = array(
-    'authemail' => YOUR_AUTH_EMAIL,
-    'token' => YOUR_TOKEN,
-    'endpoint' => DF_API_ENDPOINT
+	'authemail' => YOUR_AUTH_EMAIL,
+	'token' => YOUR_TOKEN,
+	'endpoint' => DF_API_ENDPOINT
 );
 
 $data = array(
-	"token"             => $config["token"],
-	"authemail"         => $config["authemail"],
-	"dnsaction"			=> "saverecords",
-    "domain"            => "", // domain name
-    "dnsrecid"			=> array(),
-    "dnsrecordhost"		=> array(),
-    "dnsrecordtype"		=> array(),
-    "dnsrecordaddress"	=> array(),
-    "dnsrecordttl"		=> array(),
-    "dnsrecordpriority"	=> array(),
+	"token" => $config["token"],
+	"authemail" => $config["authemail"],
+	"dnsaction"	=> "saverecords",
+	"domain" => "", // domain name
+	"dnsrecid" => array(),
+	"dnsrecordhost"	=> array(),
+	"dnsrecordtype"	=> array(),
+	"dnsrecordaddress" => array(),
+	"dnsrecordttl" => array(),
+	"dnsrecordpriority"	=> array(),
 );
 
 $ch = curl_init();

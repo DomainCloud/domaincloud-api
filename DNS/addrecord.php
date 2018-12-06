@@ -6,15 +6,15 @@ $config = array(
 );
 
 $data = array(
-	"token"             => $config["token"],
-	"authemail"         => $config["authemail"],
-	"dnsaction"			=> "deleterecord",
-    "domain"            => "", // domain name
-    "dnsrecid"			=> "",
-    "dnsrecordhost"		=> "",
-    "dnsrecordtype"		=> "",
-    "dnsrecordaddress"	=> "",
-    "dnsrecordttl"		=> "",
+	"token" => $config["token"],
+	"authemail" => $config["authemail"],
+	"dnsaction" => "deleterecord",
+    "domain" => "", // domain name
+    "dnsrecid" => "",
+    "dnsrecordhost"	=> "",
+    "dnsrecordtype"	=> "",
+    "dnsrecordaddress" => "",
+    "dnsrecordttl" => "",
     "dnsrecordpriority"	=> "",
 );
 

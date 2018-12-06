@@ -6,17 +6,17 @@ $config = array(
 );
 
 $data = array(
-	"token"             => $config["token"],
-	"authemail"         => $config["authemail"],
-	"dnsaction"			=> "deleterecord",
-    "domain"            => "",
-    "dnsrecid"			=> "",
-    "dnsrecordhost"		=> "",
-    "dnsrecordtype"		=> "",
-    "dnsrecordaddress"	=> "",
-    "dnsrecordttl"		=> "",
+	"token" => $config["token"],
+	"authemail" => $config["authemail"],
+	"dnsaction"	=> "deleterecord",
+    "domain" => "",
+    "dnsrecid" => "",
+    "dnsrecordhost"	=> "",
+    "dnsrecordtype"	=> "",
+    "dnsrecordaddress"=> "",
+    "dnsrecordttl"=> "",
     "dnsrecordpriority"	=> "",
-    "delid"				=> "", // record id
+    "delid" => "", // record id
 );
 
 $ch = curl_init();

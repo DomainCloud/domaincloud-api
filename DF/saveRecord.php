@@ -6,15 +6,15 @@ $config = array(
 );
 
 $data = array(
-	"token"             => $config["token"],
-	"authemail"         => $config["authemail"],
-	"action"			=> "saverecords",
-    "domain"            => "", // domain name
-    "recid"				=> array(), // records id
-    "origin_domain"		=> array(), // origin domains
-    "destination_domain"=> array(), // destination domains
-    "type"				=> array(), // type domains
-    "option"			=> array(), // option domains
+	"token" => $config["token"],
+	"authemail" => $config["authemail"],
+	"action" => "saverecords",
+    "domain" => "", // domain name
+    "recid"	=> array(), // records id
+    "origin_domain"	=> array(), // origin domains
+    "destination_domain" => array(), // destination domains
+    "type" => array(), // type domains
+    "option" => array(), // option domains
 );
 
 $ch = curl_init();
