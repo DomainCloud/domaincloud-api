@@ -6,16 +6,16 @@ $config = array(
 );
 
 $data = array(
-	"token" => $config["token"],
-	"authemail" => $config["authemail"],
-	"action" => "deleterecord",
+    "token" => $config["token"],
+    "authemail" => $config["authemail"],
+    "action" => "deleterecord",
     "domain" => "", // domain name
     "recid" => "",
-    "origin_domain"	=> "",
+    "origin_domain" => "",
     "destination_domain" => "",
     "type" => "",
     "option" => "",
-    "delid"	=> "", // record id
+    "delid" => "", // record id
 );
 
 $ch = curl_init();
