@@ -6,9 +6,9 @@ $config = array(
 );
 
 $data = array(
-	"token"             => $config["token"],
-	"authemail"         => $config["authemail"],
-	"action"			=> "GetTLDPricing",
+    "token" => $config["token"],
+    "authemail" => $config["authemail"],
+    "action" => "GetTLDPricing",
 );
 
 $ch = curl_init();

@@ -6,9 +6,9 @@ $config = array(
 );
 
 $data = array(
-	"token"             => $config["token"],
-	"authemail"         => $config["authemail"],
-	"action"			=> "GetCreditBalance",
+    "token" => $config["token"],
+    "authemail" => $config["authemail"],
+    "action" => "GetCreditBalance",
 );
 
 $ch = curl_init();
