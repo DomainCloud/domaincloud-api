@@ -24,6 +24,9 @@ This type include several actions, such as:
 |ModifyNameserver|Child nameserver modification|
 |DeleteNameserver|Child nameserver deletion|
 |RequestDelete|Domain deletion|
+|UploadFile|Upload domain documents|
+|GetCreditBalance|Retrieve reseller credit balance|
+|GetTLDPricing|Retrieve reseller TLD pricing|
 
 # DNS Functions
 This type include several actions, such as:
