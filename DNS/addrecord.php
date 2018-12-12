@@ -8,13 +8,12 @@ $config = array(
 $data = array(
     "token" => $config["token"],
     "authemail" => $config["authemail"],
-    "dnsaction" => "deleterecord",
-    "domain" => "", // domain name
-    "dnsrecid" => "",
-    "dnsrecordhost" => "",
-    "dnsrecordtype" => "",
-    "dnsrecordaddress" => "",
-    "dnsrecordttl" => "",
+    "dnsaction" => "AddRecord",
+    "domain" => "yourdomain.id", // domain name
+    "dnsrecordhost" => "dns.yourdomain.id",
+    "dnsrecordtype" => "A", // A, CNAME, MX, TXT
+    "dnsrecordaddress" => "dns.yourdomain.id",
+    "dnsrecordttl" => "3600",
     "dnsrecordpriority" => "",
 );
 

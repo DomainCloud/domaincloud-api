@@ -8,12 +8,11 @@ $config = array(
 $data = array(
     "token" => $config["token"],
     "authemail" => $config["authemail"],
-    "action" => "addrecord",
-    "domain" => "", // domain name
-    "recid" => "",
-    "origin_domain" => "",
-    "destination_domain" => "",
-    "type" => "", //301 or 302
+    "action" => "AddRecord",
+    "domain" => "yourdomain.id", // domain name
+    "origin_domain" => "root.yourdomain.id",
+    "destination_domain" => "http://domain.cloud.id",
+    "type" => "301", //301 or 302
     "option" => "1", // 1: Only redirect with www, 2: Redirect with or without www, 3: Do no redirect www
 );
 

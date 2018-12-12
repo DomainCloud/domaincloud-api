@@ -8,9 +8,13 @@ $config = array(
 $data = array(
     "token" => $config["token"],
     "authemail" => $config["authemail"],
-    "dnsaction" => "DeleteRecord",
-    "domain" => "yourdomain.id",
-    "delid" => "45585", // record id
+    "dnsaction" => "SaveRecords",
+    "domain" => "yourdomain.id", // domain name
+    "dnsrecid" => array("45585", "45587"),
+    "dnsrecordhost" => array("yourdomain.id", "yourdomain.id"),
+    "dnsrecordtype" => array("NS", "NS"),
+    "dnsrecordaddress" => array("ns1.domaincloud.id", "ns2.domaincloud.id"),
+    "dnsrecordttl" => array("21600", "21600"),
 );
 
 $ch = curl_init();

@@ -8,14 +8,11 @@ $config = array(
 $data = array(
     "token" => $config["token"],
     "authemail" => $config["authemail"],
-    "dnsaction" => "saverecords",
-    "domain" => "", // domain name
-    "dnsrecid" => array(),
-    "dnsrecordhost" => array(),
-    "dnsrecordtype" => array(),
-    "dnsrecordaddress" => array(),
-    "dnsrecordttl" => array(),
-    "dnsrecordpriority" => array(),
+    "action" => "SaveRecords",
+    "domain" => "yourdomain.id", // domain name
+    "recid" => array("120"), // records id
+    "destination_domain" => array("http://www.redirect.com"), // destination domains
+    "type" => array("302"), // type domains
 );
 
 $ch = curl_init();
