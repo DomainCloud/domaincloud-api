@@ -2,10 +2,8 @@
 include('_apiProcess.php');
 
 $params = [
-    "domainid" => "",
-    "domainname" => "", 
-    "sld" => "", // eg. yourdomain
-    "tld" => "", // eg. .id
+    "sld" => "yourdomain",
+    "tld" => "id",
 ];
 
 $a = requestDelete($params);

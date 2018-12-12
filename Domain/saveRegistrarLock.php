@@ -2,10 +2,8 @@
 include('_apiProcess.php');
 
 $params = [
-    "domainid" => "",
-    "domainname" => "", 
-    "sld" => "", // eg. yourdomain
-    "tld" => "", // eg. .id
+    "sld" => "yourdomain",
+    "tld" => "id",
     "lockenabled" => "unlocked", // unlocked or locked 
 ];
 

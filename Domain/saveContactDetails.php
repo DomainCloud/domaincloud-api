@@ -1,21 +1,19 @@
 <?php
 include('_apiProcess.php');
 
-$params = [
-    "domainid" => "",
-    "domainname" => "SIO.my.id", 
-    "sld" => "", // eg. yourdomain
-    "tld" => "", // eg. .id 
-    "ContactName" => "",
-    "ContactOrg" => "",
-    "ContactAddress1" => "",
-    "ContactAddress2" => "",
-    "ContactCity" => "",
-    "ContactState" => "",
-    "ContactZIP" => "",
-    "ContactCountry" => "",
-    "ContactPhoneNum" => "",
-    "ContactEmail" => ""
+$params = [ 
+    "sld" => "yourdomain",
+    "tld" => "id",
+    "ContactName" => "John Doe",
+    "ContactOrg" => "JohnDoe",
+    "ContactAddress1" => "Jl. Palgenep",
+    "ContactAddress2" => "-",
+    "ContactCity" => "Kabupaten Bandung",
+    "ContactState" => "Jawa Barat",
+    "ContactZIP" => "40266",
+    "ContactCountry" => "ID",
+    "ContactPhoneNum" => "+62.8962896289",
+    "ContactEmail" => "johndoe@domain.id"
 ];
 
 $a = saveContactDetails($params);

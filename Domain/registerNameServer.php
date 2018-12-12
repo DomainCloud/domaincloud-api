@@ -2,11 +2,9 @@
 include('_apiProcess.php');
 
 $params = [
-    "domainid" => "",
-    "domainname" => "",
-    "sld" => "", // eg. yourdomain
-    "tld" => "", // eg. .id
-    "nameserver" => "",
+    "sld" => "yourdomain",
+    "tld" => "id",
+    "nameserver" => "ns1.yourdomain.id",
     "ipaddress" => ""
 ];
 
