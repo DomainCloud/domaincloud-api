@@ -23,7 +23,7 @@ This type include several actions, such as:
 |RegisterNameserver|Child nameserver registration|[Link](https://github.com/DomainCloud/domaincloud-api/wiki/RegisterNameserver)|
 |ModifyNameserver|Child nameserver modification|[Link](https://github.com/DomainCloud/domaincloud-api/wiki/ModifyNameserver)|
 |DeleteNameserver|Child nameserver deletion|[Link](https://github.com/DomainCloud/domaincloud-api/wiki/DeleteNameserver)|
-|RequestDelete|Domain deletion|[link](https://github.com/DomainCloud/domaincloud-api/wiki/RequestDelete)|
+|RequestDelete|Domain deletion|[Link](https://github.com/DomainCloud/domaincloud-api/wiki/RequestDelete)|
 |UploadFile|Upload domain documents||
 |GetCreditBalance|Retrieve reseller credit balance|[Link](https://github.com/DomainCloud/domaincloud-api/wiki/GetCreditBalance)|
 |GetTLDPricing|Retrieve reseller TLD pricing|[Link](https://github.com/DomainCloud/domaincloud-api/wiki/GetTLDPricing)|
