@@ -2,7 +2,7 @@
 $config = array(
     'authemail' => YOUR_AUTH_EMAIL,
     'token' => YOUR_TOKEN,
-    'endpoint' => DF_API_ENDPOINT
+    'endpoint' => DNS_API_ENDPOINT
 );
 
 $data = array(
