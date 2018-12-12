@@ -13,7 +13,7 @@ This type include several actions, such as:
 |RegisterDomain|Registration of a new domain|
 |TransferDomain|Transfer a domain|
 |RenewDomain|Renew a domain|
-|GetNameservers|Return up to 5 nameservers that are set for the domain|
+|[GetNameservers](https://github.com/DomainCloud/domaincloud-api/wiki/GetNameservers)|Return up to 5 nameservers that are set for the domain|
 |SaveNameservers|Change a domains nameservers|
 |GetRegistrarLock|Return the current lock status of a domain|
 |SaveRegistrarLock|Activate/Non-activate lock status setting|
