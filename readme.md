@@ -10,9 +10,9 @@ This type include several actions, such as:
 
 |Action|Description|Documentation|
 |--- |--- |--- |
-|RegisterDomain|Registration of a new domain||
-|TransferDomain|Transfer a domain||
-|RenewDomain|Renew a domain||
+|RegisterDomain|Registration of a new domain|[Link](https://github.com/DomainCloud/domaincloud-api/wiki/RegisterDomain)|
+|TransferDomain|Transfer a domain|[Link](https://github.com/DomainCloud/domaincloud-api/wiki/TransferDomain)|
+|RenewDomain|Renew a domain|[Link](https://github.com/DomainCloud/domaincloud-api/wiki/RenewDomain)|
 |GetNameservers|Return up to 5 nameservers that are set for the domain|[Link](https://github.com/DomainCloud/domaincloud-api/wiki/GetNameservers)|
 |SaveNameservers|Change a domains nameservers|[Link](https://github.com/DomainCloud/domaincloud-api/wiki/SaveNameservers)|
 |GetRegistrarLock|Return the current lock status of a domain|[Link](https://github.com/DomainCloud/domaincloud-api/wiki/GetRegistrarLockStatus)|
@@ -24,7 +24,7 @@ This type include several actions, such as:
 |ModifyNameserver|Child nameserver modification|[Link](https://github.com/DomainCloud/domaincloud-api/wiki/ModifyNameserver)|
 |DeleteNameserver|Child nameserver deletion|[Link](https://github.com/DomainCloud/domaincloud-api/wiki/DeleteNameserver)|
 |RequestDelete|Domain deletion|[Link](https://github.com/DomainCloud/domaincloud-api/wiki/RequestDelete)|
-|UploadFile|Upload domain documents||
+|UploadFile|Upload domain documents|[Link](https://github.com/DomainCloud/domaincloud-api/wiki/UploadFile)|
 |GetCreditBalance|Retrieve reseller credit balance|[Link](https://github.com/DomainCloud/domaincloud-api/wiki/GetCreditBalance)|
 |GetTLDPricing|Retrieve reseller TLD pricing|[Link](https://github.com/DomainCloud/domaincloud-api/wiki/GetTLDPricing)|
 

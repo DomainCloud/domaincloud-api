@@ -2,8 +2,8 @@
 include('_apiProcess.php');
 
 $params = [
-    "sld" => "", // eg. yourdomain
-    "tld" => "", // eg. .id
+    "sld" => "yourdomain",
+    "tld" => ".id",
 ];
 
 $a = getEPPCode($params);
