@@ -27,6 +27,7 @@ This type include several actions, such as:
 |UploadFile|Upload domain documents|[Link](https://github.com/DomainCloud/domaincloud-api/wiki/UploadFile)|
 |GetCreditBalance|Retrieve reseller credit balance|[Link](https://github.com/DomainCloud/domaincloud-api/wiki/GetCreditBalance)|
 |GetTLDPricing|Retrieve reseller TLD pricing|[Link](https://github.com/DomainCloud/domaincloud-api/wiki/GetTLDPricing)|
+|Whois|Retrieve WHOIS information|[Link](https://github.com/DomainCloud/domaincloud-api/wiki/Whois)|
 
 # DNS Functions
 This type include several actions, such as:
