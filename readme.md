@@ -37,7 +37,7 @@ This type include several actions, such as:
 |--- |--- |--- |
 |GetRecords|Return the DNS Records|[Link](https://github.com/DomainCloud/domaincloud-api/wiki/DNS-GetRecords)|
 |AddRecord|Add DNS Host Record|[Link](https://github.com/DomainCloud/domaincloud-api/wiki/DNS-AddRecord)|
-|SaveRecords|Sumbitted changes to DNS Host Records information|[Link](https://github.com/DomainCloud/domaincloud-api/wiki/DNS-SaveRecords)|
+|SaveRecords|Submitted changes to DNS Host Records information|[Link](https://github.com/DomainCloud/domaincloud-api/wiki/DNS-SaveRecords)|
 |DeleteRecord|Delete DNS Host Record|[Link](https://github.com/DomainCloud/domaincloud-api/wiki/DNS-DeleteRecord)|
 
 # DF Functions
@@ -48,5 +48,5 @@ This type include several actions, such as:
 |--- |--- |--- |
 |GetRecords|Return the Domain Forwarding Records|[Link](https://github.com/DomainCloud/domaincloud-api/wiki/DF-GetRecords)|
 |AddRecord|Add DF Record|[Link](https://github.com/DomainCloud/domaincloud-api/wiki/DF-AddRecord)|
-|SaveRecords|Sumbitted changes to DF Records information|[Link](https://github.com/DomainCloud/domaincloud-api/wiki/DF-SaveRecords)|
+|SaveRecords|Submitted changes to DF Records information|[Link](https://github.com/DomainCloud/domaincloud-api/wiki/DF-SaveRecords)|
 |DeleteRecord|Delete DF Record|[Link](https://github.com/DomainCloud/domaincloud-api/wiki/DF-DeleteRecord)|
